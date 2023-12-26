@@ -1,0 +1,71 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 6fd3b1c7-f4ee-4f40-ae71-a0439f037db8)
+
+  (paper "A5")
+
+  (title_block
+    (title "Flipper Device DIY")
+    (rev "13.F7B9C6")
+    (company "Flipper Devices Inc.")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 12.7 13.335) (size 49.53 23.495)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 132 0 0.4588))
+    (uuid 574ce9ea-c3fa-46b8-8d0b-f8692bcd0c57)
+    (property "Sheetname" "Power" (at 27.305 27.305 0)
+      (effects (font (size 4 4) bold) (justify left bottom))
+    )
+    (property "Sheetfile" "Power.kicad_sch" (at 12.7 37.4146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Flipper_Zero_DIY"
+        (path "/6fd3b1c7-f4ee-4f40-ae71-a0439f037db8" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 81.28 53.975) (size 50.8 23.495)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 132 0 0.4600))
+    (uuid 8de03230-0fbb-4dc8-83dd-160a4cc10118)
+    (property "Sheetname" "Block_Diagram" (at 84.455 67.31 0)
+      (effects (font (size 4 4) bold) (justify left bottom))
+    )
+    (property "Sheetfile" "Block_Diagram.kicad_sch" (at 81.28 78.0546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Flipper_Zero_DIY"
+        (path "/6fd3b1c7-f4ee-4f40-ae71-a0439f037db8" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 147.32 12.7) (size 49.53 23.495)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 132 0 0.4588))
+    (uuid df3e630c-89cc-4e6d-867b-b681a42511f6)
+    (property "Sheetname" "Peripherals" (at 153.67 26.67 0)
+      (effects (font (size 4 4) bold) (justify left bottom))
+    )
+    (property "Sheetfile" "Peripherals.kicad_sch" (at 147.32 36.83 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Flipper_Zero_DIY"
+        (path "/6fd3b1c7-f4ee-4f40-ae71-a0439f037db8" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

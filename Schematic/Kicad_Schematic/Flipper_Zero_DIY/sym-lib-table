@@ -1,0 +1,9 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Flipper_Zero_Lib")(type "KiCad")(uri "${KIPRJMOD}/Flipper_Zero_Lib.kicad_sym")(options "")(descr ""))
+  (lib (name "BQ25896RTWR")(type "KiCad")(uri "${KIPRJMOD}/External_Kicad_Parts/BQ25896RTWR.kicad_sym")(options "")(descr ""))
+  (lib (name "BQ27220YZFR")(type "KiCad")(uri "${KIPRJMOD}/External_Kicad_Parts/BQ27220YZFR.kicad_sym")(options "")(descr ""))
+  (lib (name "LM3281YFQR")(type "KiCad")(uri "${KIPRJMOD}/External_Kicad_Parts/LM3281YFQR.kicad_sym")(options "")(descr ""))
+  (lib (name "MMDT2907A-7-F")(type "KiCad")(uri "${KIPRJMOD}/External_Kicad_Parts/MMDT2907A-7-F.kicad_sym")(options "")(descr ""))
+  (lib (name "LP5562TMX-NOPB")(type "KiCad")(uri "${KIPRJMOD}/External_Kicad_Parts/LP5562TMX-NOPB.kicad_sym")(options "")(descr ""))
+)
