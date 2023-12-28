@@ -4,6 +4,12 @@
 
   (paper "A3")
 
+  (title_block
+    (title "Flipper Device DIY")
+    (rev "13.F7B9C6")
+    (company "Flipper Devices Inc.")
+  )
+
   (lib_symbols
     (symbol "BQ25896RTWR:BQ25896RTWR" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "DD6" (at 0 38.1 0)
@@ -3642,7 +3648,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 312.42 110.49 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 4540c6ce-cdfe-4425-9598-3b5e30088b4a)
     (property "Reference" "R43" (at 310.515 113.03 90)
       (effects (font (size 1.27 1.27)))
@@ -4562,7 +4568,7 @@
   )
 
   (symbol (lib_id "Device:D") (at 341.63 205.74 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 9716e420-8c56-4ca5-95a8-a94a2a44cbf4)
     (property "Reference" "VD37" (at 344.17 204.47 90)
       (effects (font (size 1.27 1.27)) (justify left))

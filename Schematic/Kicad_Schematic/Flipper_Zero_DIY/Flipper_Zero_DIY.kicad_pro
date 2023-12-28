@@ -329,7 +329,7 @@
     ],
     [
       "8de03230-0fbb-4dc8-83dd-160a4cc10118",
-      "Block_Diagram"
+      "Main_Block_Diagram"
     ],
     [
       "574ce9ea-c3fa-46b8-8d0b-f8692bcd0c57",
@@ -338,6 +338,42 @@
     [
       "df3e630c-89cc-4e6d-867b-b681a42511f6",
       "Peripherals"
+    ],
+    [
+      "3c4a817d-5c25-43ae-9205-7ae290fb93d7",
+      "MCU-STM32WB55"
+    ],
+    [
+      "341fdb60-c0a6-4542-a819-91b4604ca30b",
+      "LCD-display"
+    ],
+    [
+      "92a95282-e6d1-4acc-9253-4231b5f831de",
+      "Sub-1-GHz-CC1101"
+    ],
+    [
+      "64c69069-35fd-4bf7-9928-a7349a5a8e14",
+      "Buttons"
+    ],
+    [
+      "4001b5ba-de94-4931-8d86-73d20ca7a680",
+      "iButton"
+    ],
+    [
+      "6eb83f5a-7b16-426a-9130-a087b28e79cc",
+      "NFC_Block_Diagram"
+    ],
+    [
+      "3150230f-fc42-4f51-b6aa-576c3f46b615",
+      "NFC"
+    ],
+    [
+      "f971560e-1eca-4abf-9deb-40112c85a0f3",
+      "Power_and_Vibro"
+    ],
+    [
+      "02c2e9ea-170f-4763-bb5e-4dbd82101adc",
+      "RFID"
     ]
   ],
   "text_variables": {}

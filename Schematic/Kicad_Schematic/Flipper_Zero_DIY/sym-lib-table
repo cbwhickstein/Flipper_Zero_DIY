@@ -6,4 +6,6 @@
   (lib (name "LM3281YFQR")(type "KiCad")(uri "${KIPRJMOD}/External_Kicad_Parts/LM3281YFQR.kicad_sym")(options "")(descr ""))
   (lib (name "MMDT2907A-7-F")(type "KiCad")(uri "${KIPRJMOD}/External_Kicad_Parts/MMDT2907A-7-F.kicad_sym")(options "")(descr ""))
   (lib (name "LP5562TMX-NOPB")(type "KiCad")(uri "${KIPRJMOD}/External_Kicad_Parts/LP5562TMX-NOPB.kicad_sym")(options "")(descr ""))
+  (lib (name "LFL182G45TC1A108")(type "KiCad")(uri "${KIPRJMOD}/External_Kicad_Parts/LFL182G45TC1A108.kicad_sym")(options "")(descr ""))
+  (lib (name "1001312_antenna")(type "KiCad")(uri "${KIPRJMOD}/External_Kicad_Parts/1001312_antenna.kicad_sym")(options "")(descr ""))
 )

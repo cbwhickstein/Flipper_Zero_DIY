@@ -4,6 +4,12 @@
 
   (paper "A3")
 
+  (title_block
+    (title "Flipper Device DIY")
+    (rev "13.F7B9C6")
+    (company "Flipper Devices Inc.")
+  )
+
   (lib_symbols
     (symbol "Connector2:Conn_01x10_Female" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 12.7 0)
@@ -4453,7 +4459,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 252.095 69.215 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 569bc6e0-b762-4c62-be44-ace6f589505f)
     (property "Reference" "R66" (at 249.555 72.39 90)
       (effects (font (size 1.27 1.27)))
@@ -5246,7 +5252,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 257.175 69.215 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid ab5240fd-3977-4322-a687-b4f54c4e5bdc)
     (property "Reference" "R67" (at 254.635 72.39 90)
       (effects (font (size 1.27 1.27)))
@@ -5980,7 +5986,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 241.935 69.215 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid f61eb3ce-d276-455b-8c07-f97e062c69e3)
     (property "Reference" "R65" (at 239.395 72.39 90)
       (effects (font (size 1.27 1.27)))

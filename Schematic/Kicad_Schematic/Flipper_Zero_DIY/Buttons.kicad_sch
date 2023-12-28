@@ -1,0 +1,16 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 312c2d6f-6420-47cf-b984-3d20c65dbbda)
+
+  (paper "A4")
+
+  (title_block
+    (title "Flipper Device DIY")
+    (rev "13.F7B9C6")
+    (company "Flipper Devices Inc.")
+  )
+
+  (lib_symbols
+  )
+
+)
