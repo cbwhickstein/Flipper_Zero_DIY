@@ -7,7 +7,8 @@
   (title_block
     (title "Flipper Device DIY")
     (rev "13.F7B9C6")
-    (company "Flipper Devices Inc.")
+    (company "Originally from : Flipper Devices Inc.")
+    (comment 1 "DIY Version 1.0")
   )
 
   (lib_symbols
@@ -3991,7 +3992,7 @@
     (property "Value" "~" (at 143.51 61.595 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprints:STM32WB55RGV6TR" (at 143.51 61.595 0)
+    (property "Footprint" "Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm" (at 143.51 61.595 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 143.51 61.595 0)

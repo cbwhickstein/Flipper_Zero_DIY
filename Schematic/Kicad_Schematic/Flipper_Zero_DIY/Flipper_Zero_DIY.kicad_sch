@@ -7,7 +7,8 @@
   (title_block
     (title "Flipper Device DIY")
     (rev "13.F7B9C6")
-    (company "Flipper Devices Inc.")
+    (company "Originally from : Flipper Devices Inc.")
+    (comment 1 "DIY Version 1.0")
   )
 
   (lib_symbols
@@ -108,10 +109,6 @@
   (text "NFC RFID PCB" (at 133.985 44.45 0)
     (effects (font (size 4 4) bold) (justify left bottom))
     (uuid c7ed30f6-f89a-4426-9081-31c75b971d14)
-  )
-  (text "TODO" (at 83.82 97.155 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid de1dc5ea-aa1a-4efb-b827-a44b0b6fafdf)
   )
   (text "TODO" (at 132.08 65.405 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
