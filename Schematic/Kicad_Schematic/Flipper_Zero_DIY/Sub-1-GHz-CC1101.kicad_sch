@@ -2042,7 +2042,7 @@
     (property "Value" "Sub-1GHz Antenna A5" (at 251.46 125.095 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "footprints:ANT_1001312_AVX" (at 248.285 123.19 0)
+    (property "Footprint" "footprints:Antenna_2" (at 248.285 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 248.285 123.19 0)
@@ -2229,8 +2229,8 @@
     (property "Datasheet" "~" (at 114.935 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 460eae8c-be6d-4cf5-9b0b-ec15e4a22136))
-    (pin "1" (uuid 40deb572-29ad-4420-b2a2-8501edbe62da))
+    (pin "2" (uuid 460eae8c-be6d-4cf5-9b0b-ec15e4a22137))
+    (pin "1" (uuid 40deb572-29ad-4420-b2a2-8501edbe62db))
     (instances
       (project "Flipper_Zero_DIY"
         (path "/6fd3b1c7-f4ee-4f40-ae71-a0439f037db8/92a95282-e6d1-4acc-9253-4231b5f831de"
@@ -3058,8 +3058,8 @@
     (property "Datasheet" "~" (at 98.425 80.645 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid ca73a6d3-6efe-4043-aaff-16f291d8d329))
-    (pin "1" (uuid 427c2c42-a5ab-477a-90a2-554e625a38ef))
+    (pin "2" (uuid ca73a6d3-6efe-4043-aaff-16f291d8d32a))
+    (pin "1" (uuid 427c2c42-a5ab-477a-90a2-554e625a38f0))
     (instances
       (project "Flipper_Zero_DIY"
         (path "/6fd3b1c7-f4ee-4f40-ae71-a0439f037db8/92a95282-e6d1-4acc-9253-4231b5f831de"
@@ -3364,8 +3364,8 @@
     (property "Datasheet" "~" (at 167.005 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 811f4256-8478-4d56-a7d4-7b0ab33e53a9))
-    (pin "2" (uuid de8a8436-2d4b-404f-9d23-ed1e78ae91c4))
+    (pin "1" (uuid 811f4256-8478-4d56-a7d4-7b0ab33e53aa))
+    (pin "2" (uuid de8a8436-2d4b-404f-9d23-ed1e78ae91c5))
     (instances
       (project "Flipper_Zero_DIY"
         (path "/6fd3b1c7-f4ee-4f40-ae71-a0439f037db8/92a95282-e6d1-4acc-9253-4231b5f831de"
@@ -3493,8 +3493,8 @@
     (property "Datasheet" "~" (at 227.965 53.975 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 84495be3-b5db-41f4-bc5c-bec362845471))
-    (pin "2" (uuid 7011bcca-98fd-47bb-96dc-de665ff22415))
+    (pin "1" (uuid 84495be3-b5db-41f4-bc5c-bec362845472))
+    (pin "2" (uuid 7011bcca-98fd-47bb-96dc-de665ff22416))
     (instances
       (project "Flipper_Zero_DIY"
         (path "/6fd3b1c7-f4ee-4f40-ae71-a0439f037db8/92a95282-e6d1-4acc-9253-4231b5f831de"
@@ -3622,8 +3622,8 @@
     (property "Datasheet" "~" (at 222.885 61.595 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 58e0cbb6-3c00-4f15-bf16-58c0f683a102))
-    (pin "1" (uuid 5ba4699e-a63e-480a-9d0b-05436be33cd0))
+    (pin "2" (uuid 58e0cbb6-3c00-4f15-bf16-58c0f683a103))
+    (pin "1" (uuid 5ba4699e-a63e-480a-9d0b-05436be33cd1))
     (instances
       (project "Flipper_Zero_DIY"
         (path "/6fd3b1c7-f4ee-4f40-ae71-a0439f037db8/92a95282-e6d1-4acc-9253-4231b5f831de"
@@ -3780,8 +3780,8 @@
     (property "Datasheet" "~" (at 99.06 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 460eae8c-be6d-4cf5-9b0b-ec15e4a22136))
-    (pin "1" (uuid 40deb572-29ad-4420-b2a2-8501edbe62da))
+    (pin "2" (uuid 460eae8c-be6d-4cf5-9b0b-ec15e4a22138))
+    (pin "1" (uuid 40deb572-29ad-4420-b2a2-8501edbe62dc))
     (instances
       (project "Flipper_Zero_DIY"
         (path "/6fd3b1c7-f4ee-4f40-ae71-a0439f037db8/92a95282-e6d1-4acc-9253-4231b5f831de"

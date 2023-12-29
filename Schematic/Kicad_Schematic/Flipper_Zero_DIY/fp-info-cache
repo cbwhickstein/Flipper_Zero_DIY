@@ -1,4 +1,4 @@
-21989505501262517
+21992913221105553
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -90486,8 +90486,8 @@ footprints
 
 
 0
-0
-0
+6
+6
 footprints
 ANT_1001312_AVX
 
@@ -90495,6 +90495,13 @@ ANT_1001312_AVX
 0
 2
 2
+footprints
+Antenna_2
+
+
+0
+0
+0
 footprints
 BQ25896RTWR
 
@@ -90558,6 +90565,13 @@ Olimex_microSD
 0
 10
 10
+footprints
+SKRMAAE010_AAL
+
+SKRMAAE010 
+0
+4
+4
 footprints
 STM32WB55RGV6TR
 

@@ -1865,8 +1865,8 @@
     (property "Datasheet" "~" (at 92.075 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 53adab9b-a256-4279-8c94-c2a800184562))
-    (pin "1" (uuid eacb8fad-845e-4266-bfb0-a0e1523f618b))
+    (pin "2" (uuid 53adab9b-a256-4279-8c94-c2a800184563))
+    (pin "1" (uuid eacb8fad-845e-4266-bfb0-a0e1523f618c))
     (instances
       (project "Flipper_Zero_DIY"
         (path "/6fd3b1c7-f4ee-4f40-ae71-a0439f037db8/64c69069-35fd-4bf7-9928-a7349a5a8e14"

@@ -4441,7 +4441,7 @@
     (property "Value" "1001312" (at 267.97 99.695 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "footprints:SKRMAAE010_AAL" (at 264.795 97.79 0)
+    (property "Footprint" "footprints:ANT_1001312_AVX" (at 264.795 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 264.795 97.79 0)
