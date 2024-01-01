@@ -9,4 +9,5 @@
   (lib (name "LFL182G45TC1A108")(type "KiCad")(uri "${KIPRJMOD}/External_Kicad_Parts/LFL182G45TC1A108.kicad_sym")(options "")(descr ""))
   (lib (name "1001312_antenna")(type "KiCad")(uri "${KIPRJMOD}/External_Kicad_Parts/1001312_antenna.kicad_sym")(options "")(descr ""))
   (lib (name "BGS13S4N9E6327XTSA1")(type "KiCad")(uri "${KIPRJMOD}/External_Kicad_Parts/BGS13S4N9E6327XTSA1.kicad_sym")(options "")(descr ""))
+  (lib (name "SKY13373-460LF")(type "KiCad")(uri "${KIPRJMOD}/External_Kicad_Parts/SKY13373-460LF.kicad_sym")(options "")(descr ""))
 )
