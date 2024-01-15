@@ -960,7 +960,7 @@
   (symbol (lib_id "Flipper_Zero_Lib:Flipper_Zero_CC101_Block") (at 196.85 97.79 0) (unit 1)
     (in_bom no) (on_board no) (dnp no) (fields_autoplaced)
     (uuid 09854567-0045-4a64-8102-a3921aac2f74)
-    (property "Reference" "CC1" (at 224.79 90.9292 0)
+    (property "Reference" "CC1101" (at 224.79 90.9292 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 193.04 97.79 0)
@@ -983,9 +983,6 @@
     (pin "" (uuid 7e61c4c7-4cb3-4694-8d2b-5bc6b0b0190b))
     (instances
       (project "Flipper_Zero_DIY"
-        (path "/6fd3b1c7-f4ee-4f40-ae71-a0439f037db8"
-          (reference "CC1") (unit 1)
-        )
         (path "/6fd3b1c7-f4ee-4f40-ae71-a0439f037db8/8de03230-0fbb-4dc8-83dd-160a4cc10118"
           (reference "CC1101") (unit 1)
         )
@@ -1058,9 +1055,6 @@
     (pin "" (uuid 59f60806-0038-4abc-93dd-170135503cbb))
     (instances
       (project "Flipper_Zero_DIY"
-        (path "/6fd3b1c7-f4ee-4f40-ae71-a0439f037db8"
-          (reference "MCU1") (unit 1)
-        )
         (path "/6fd3b1c7-f4ee-4f40-ae71-a0439f037db8/8de03230-0fbb-4dc8-83dd-160a4cc10118"
           (reference "MCU1") (unit 1)
         )
@@ -1095,9 +1089,6 @@
     (pin "" (uuid 4f7c17e1-6fc1-4c5b-9df5-529f23a75e5b))
     (instances
       (project "Flipper_Zero_DIY"
-        (path "/6fd3b1c7-f4ee-4f40-ae71-a0439f037db8"
-          (reference "Buttons1") (unit 1)
-        )
         (path "/6fd3b1c7-f4ee-4f40-ae71-a0439f037db8/8de03230-0fbb-4dc8-83dd-160a4cc10118"
           (reference "Buttons1") (unit 1)
         )
@@ -1130,9 +1121,6 @@
     (pin "" (uuid d16af8f5-5970-4f20-aecb-3d6e145ddb27))
     (instances
       (project "Flipper_Zero_DIY"
-        (path "/6fd3b1c7-f4ee-4f40-ae71-a0439f037db8"
-          (reference "LCD1") (unit 1)
-        )
         (path "/6fd3b1c7-f4ee-4f40-ae71-a0439f037db8/8de03230-0fbb-4dc8-83dd-160a4cc10118"
           (reference "LCD1") (unit 1)
         )
@@ -1194,9 +1182,6 @@
     (pin "" (uuid c172e1b2-8389-4e0e-9f6d-32e4f72d1d4c))
     (instances
       (project "Flipper_Zero_DIY"
-        (path "/6fd3b1c7-f4ee-4f40-ae71-a0439f037db8"
-          (reference "Periphery1") (unit 1)
-        )
         (path "/6fd3b1c7-f4ee-4f40-ae71-a0439f037db8/8de03230-0fbb-4dc8-83dd-160a4cc10118"
           (reference "Periphery1") (unit 1)
         )
@@ -1228,9 +1213,6 @@
     (pin "" (uuid 0f246a4d-5dd0-4865-a5ad-3526c401a8cf))
     (instances
       (project "Flipper_Zero_DIY"
-        (path "/6fd3b1c7-f4ee-4f40-ae71-a0439f037db8"
-          (reference "Power1") (unit 1)
-        )
         (path "/6fd3b1c7-f4ee-4f40-ae71-a0439f037db8/8de03230-0fbb-4dc8-83dd-160a4cc10118"
           (reference "Power1") (unit 1)
         )

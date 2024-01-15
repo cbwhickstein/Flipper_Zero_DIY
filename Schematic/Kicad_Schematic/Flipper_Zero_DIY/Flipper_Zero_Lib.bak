@@ -740,7 +740,7 @@
     (symbol "SKY13373-460LF_1_1"
       (rectangle (start -13.97 12.7) (end 13.97 -5.08)
         (stroke (width 0) (type default))
-        (fill (type none))
+        (fill (type background))
       )
       (polyline
         (pts

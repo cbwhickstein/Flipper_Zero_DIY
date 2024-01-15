@@ -374,6 +374,10 @@
     [
       "02c2e9ea-170f-4763-bb5e-4dbd82101adc",
       "RFID"
+    ],
+    [
+      "9fe18208-ca74-497d-87ec-8e97e80c6459",
+      "change_log"
     ]
   ],
   "text_variables": {}
