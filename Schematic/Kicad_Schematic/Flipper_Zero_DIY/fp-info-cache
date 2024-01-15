@@ -1,4 +1,4 @@
-21998026399340490
+22003142448161486
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -90517,6 +90517,13 @@ BQ27220YZFR
 9
 9
 footprints
+Buzzer_539-AST0760MCTRQ
+
+
+0
+2
+2
+footprints
 CONN30x1_FH34SRJ-30S-0.5SH50_HIR
 
 FH34SRJ-30S-0.5SH50 
@@ -90591,8 +90598,15 @@ SMD_RGB_LED_CLMUD-FKC-CHJNPM569ABB845343
 
 
 0
+4
+4
+footprints
+SOT323_DMN2058UW_DIO
+
+DMN2058UW-7 
 0
-0
+3
+3
 footprints
 STM32WB55RGV6TR
 
@@ -90607,3 +90621,10 @@ BGS13S4N9E6327XTSA1
 0
 9
 9
+footprints
+TSOP75338TR
+
+
+0
+0
+0
