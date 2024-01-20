@@ -11,4 +11,5 @@
   (lib (name "BGS13S4N9E6327XTSA1")(type "KiCad")(uri "${KIPRJMOD}/External_Kicad_Parts/BGS13S4N9E6327XTSA1.kicad_sym")(options "")(descr ""))
   (lib (name "SKY13373-460LF")(type "KiCad")(uri "${KIPRJMOD}/External_Kicad_Parts/SKY13373-460LF.kicad_sym")(options "")(descr ""))
   (lib (name "ST25R3916-AQWT")(type "KiCad")(uri "${KIPRJMOD}/External_Kicad_Parts/ST25R3916-AQWT.kicad_sym")(options "")(descr ""))
+  (lib (name "FAN48610BUC50X")(type "KiCad")(uri "${KIPRJMOD}/External_Kicad_Parts/FAN48610BUC50X.kicad_sym")(options "")(descr ""))
 )
