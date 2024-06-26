@@ -1,299 +1,662 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 6fd3b1c7-f4ee-4f40-ae71-a0439f037db8)
-
-  (paper "A5")
-
-  (title_block
-    (title "Flipper Device DIY")
-    (rev "13.F7B9C6")
-    (company "Originally from : Flipper Devices Inc.")
-    (comment 1 "DIY Version 1.0")
-  )
-
-  (lib_symbols
-  )
-
-
-  (rectangle (start 12.065 12.065) (end 113.03 104.14)
-    (stroke (width -0.0001) (type default))
-    (fill (type color) (color 255 243 84 0.46))
-    (uuid 85f9973f-125f-4d72-93cc-64c175cf47dd)
-  )
-  (rectangle (start 113.03 38.1) (end 198.0265 119.0065)
-    (stroke (width 0) (type default))
-    (fill (type color) (color 138 148 255 0.41))
-    (uuid af4cfebb-8580-4c77-967a-e3a1439aa57d)
-  )
-  (rectangle (start 113.03 12.065) (end 198.12 38.1)
-    (stroke (width 0) (type default))
-    (fill (type color) (color 255 96 96 0.49))
-    (uuid b5c518f2-81a5-41c5-a4dc-fed880b5096d)
-  )
-  (rectangle (start 113.0487 119.0045) (end 128.903 135.89)
-    (stroke (width 0) (type default))
-    (fill (type color) (color 255 83 46 0.44))
-    (uuid c1226049-1cf6-458e-ac06-dc9bdbb4ff47)
-  )
-  (rectangle (start 33.02 31.115) (end 33.02 31.115)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid da2b6d3d-d35c-48da-930b-a80a2e4cc4d0)
-  )
-  (rectangle (start 12.065 104.14) (end 62.865 135.89)
-    (stroke (width -0.0001) (type default))
-    (fill (type color) (color 255 243 84 0.46))
-    (uuid eaf21491-087d-4cee-9b54-603c81253131)
-  )
-  (rectangle (start 62.865 104.14) (end 113.03 135.89)
-    (stroke (width 0) (type default))
-    (fill (type color) (color 110 255 142 0.46))
-    (uuid ecad0a80-809a-4c94-8dc2-038c2dc5dcee)
-  )
-
-  (text "TODO" (at 129.54 97.79 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 332cb0e7-805c-4fe0-9837-fb20a342ebe8)
-  )
-  (text "IButton \n PCB" (at 168.91 29.845 0)
-    (effects (font (size 4 4) bold) (justify left bottom))
-    (uuid 958fe7fa-2293-4d2b-b516-20a99e298bcb)
-  )
-  (text "Main PCB" (at 47.625 43.815 0)
-    (effects (font (size 4 4) (thickness 0.8) bold) (justify left bottom))
-    (uuid c02b68d3-eb37-4175-ba7e-c6a87234ea17)
-  )
-  (text "NFC RFID PCB" (at 133.985 44.45 0)
-    (effects (font (size 4 4) bold) (justify left bottom))
-    (uuid c7ed30f6-f89a-4426-9081-31c75b971d14)
-  )
-  (text "TODO" (at 172.72 97.155 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid f57b5807-3009-46fb-a3f3-cc89f9be05c0)
-  )
-
-  (sheet (at 156.21 78.105) (size 41.91 23.495)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 132 0 0.4588))
-    (uuid 02c2e9ea-170f-4763-bb5e-4dbd82101adc)
-    (property "Sheetname" "RFID" (at 168.275 91.44 0)
-      (effects (font (size 4 4) bold) (justify left bottom))
-    )
-    (property "Sheetfile" "RFID.kicad_sch" (at 156.21 102.1846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Flipper_Zero_DIY"
-        (path "/6fd3b1c7-f4ee-4f40-ae71-a0439f037db8" (page "13"))
-      )
-    )
-  )
-
-  (sheet (at 156.21 45.085) (size 41.91 23.495)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 132 0 0.4588))
-    (uuid 3150230f-fc42-4f51-b6aa-576c3f46b615)
-    (property "Sheetname" "NFC" (at 169.545 59.69 0)
-      (effects (font (size 4 4) bold) (justify left bottom))
-    )
-    (property "Sheetfile" "NFC.kicad_sch" (at 156.21 69.1646 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Flipper_Zero_DIY"
-        (path "/6fd3b1c7-f4ee-4f40-ae71-a0439f037db8" (page "11"))
-      )
-    )
-  )
-
-  (sheet (at 12.065 45.72) (size 49.53 23.495)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 132 0 0.4588))
-    (uuid 341fdb60-c0a6-4542-a819-91b4604ca30b)
-    (property "Sheetname" "LCD-display" (at 17.145 59.69 0)
-      (effects (font (size 4 4) bold) (justify left bottom))
-    )
-    (property "Sheetfile" "LCD-display.kicad_sch" (at 12.065 69.7996 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Flipper_Zero_DIY"
-        (path "/6fd3b1c7-f4ee-4f40-ae71-a0439f037db8" (page "6"))
-      )
-    )
-  )
-
-  (sheet (at 63.5 78.105) (size 49.53 23.495)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 132 0 0.4588))
-    (uuid 3c4a817d-5c25-43ae-9205-7ae290fb93d7)
-    (property "Sheetname" "MCU-STM32WB55" (at 64.135 92.075 0)
-      (effects (font (size 3.5 3.5) bold) (justify left bottom))
-    )
-    (property "Sheetfile" "MCU-STM32WB55.kicad_sch" (at 63.5 102.1846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Flipper_Zero_DIY"
-        (path "/6fd3b1c7-f4ee-4f40-ae71-a0439f037db8" (page "5"))
-      )
-    )
-  )
-
-  (sheet (at 113.03 12.065) (size 49.53 23.495)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 132 0 0.4588))
-    (uuid 4001b5ba-de94-4931-8d86-73d20ca7a680)
-    (property "Sheetname" "iButton" (at 125.73 26.035 0)
-      (effects (font (size 4 4) bold) (justify left bottom))
-    )
-    (property "Sheetfile" "iButton_sch.kicad_sch" (at 113.03 36.1446 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Flipper_Zero_DIY"
-        (path "/6fd3b1c7-f4ee-4f40-ae71-a0439f037db8" (page "9"))
-      )
-    )
-  )
-
-  (sheet (at 63.5 12.065) (size 49.53 23.495)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 132 0 0.4588))
-    (uuid 574ce9ea-c3fa-46b8-8d0b-f8692bcd0c57)
-    (property "Sheetname" "Power" (at 78.105 26.035 0)
-      (effects (font (size 4 4) bold) (justify left bottom))
-    )
-    (property "Sheetfile" "Power.kicad_sch" (at 63.5 36.1446 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Flipper_Zero_DIY"
-        (path "/6fd3b1c7-f4ee-4f40-ae71-a0439f037db8" (page "3"))
-      )
-    )
-  )
-
-  (sheet (at 12.065 109.855) (size 49.53 23.495)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 132 0 0.4588))
-    (uuid 64c69069-35fd-4bf7-9928-a7349a5a8e14)
-    (property "Sheetname" "Buttons" (at 24.765 123.825 0)
-      (effects (font (size 4 4) bold) (justify left bottom))
-    )
-    (property "Sheetfile" "Buttons.kicad_sch" (at 12.065 133.9346 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Flipper_Zero_DIY"
-        (path "/6fd3b1c7-f4ee-4f40-ae71-a0439f037db8" (page "8"))
-      )
-    )
-  )
-
-  (sheet (at 113.03 45.085) (size 42.545 23.495)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 132 0 0.4588))
-    (uuid 6eb83f5a-7b16-426a-9130-a087b28e79cc)
-    (property "Sheetname" "NFC_Block_Diagram" (at 113.03 59.055 0)
-      (effects (font (size 2.8 2.8) bold) (justify left bottom))
-    )
-    (property "Sheetfile" "NFC_Block_Diagram.kicad_sch" (at 113.03 69.1646 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Flipper_Zero_DIY"
-        (path "/6fd3b1c7-f4ee-4f40-ae71-a0439f037db8" (page "10"))
-      )
-    )
-  )
-
-  (sheet (at 12.065 12.065) (size 49.53 23.495)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 132 0 0.4600))
-    (uuid 8de03230-0fbb-4dc8-83dd-160a4cc10118)
-    (property "Sheetname" "Main_Block_Diagram" (at 12.7 25.4 0)
-      (effects (font (size 3 3) bold) (justify left bottom))
-    )
-    (property "Sheetfile" "Main_Block_Diagram.kicad_sch" (at 12.065 36.1446 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Flipper_Zero_DIY"
-        (path "/6fd3b1c7-f4ee-4f40-ae71-a0439f037db8" (page "2"))
-      )
-    )
-  )
-
-  (sheet (at 12.065 78.105) (size 49.53 23.495)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 132 0 0.4588))
-    (uuid 92a95282-e6d1-4acc-9253-4231b5f831de)
-    (property "Sheetname" "Sub-1-GHz-CC1101" (at 12.065 91.44 0)
-      (effects (font (size 3 3) bold) (justify left bottom))
-    )
-    (property "Sheetfile" "Sub-1-GHz-CC1101.kicad_sch" (at 12.065 102.1846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Flipper_Zero_DIY"
-        (path "/6fd3b1c7-f4ee-4f40-ae71-a0439f037db8" (page "7"))
-      )
-    )
-  )
-
-  (sheet (at 63.5 109.855) (size 49.53 23.495)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 132 0 0.4588))
-    (uuid 9fe18208-ca74-497d-87ec-8e97e80c6459)
-    (property "Sheetname" "change_log" (at 72.39 123.825 0)
-      (effects (font (size 3.5 3.5) bold) (justify left bottom))
-    )
-    (property "Sheetfile" "change_log.kicad_sch" (at 63.5 133.9346 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Flipper_Zero_DIY"
-        (path "/6fd3b1c7-f4ee-4f40-ae71-a0439f037db8" (page "14"))
-      )
-    )
-  )
-
-  (sheet (at 63.5 45.085) (size 49.53 23.495)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 132 0 0.4588))
-    (uuid df3e630c-89cc-4e6d-867b-b681a42511f6)
-    (property "Sheetname" "Peripherals" (at 69.85 59.055 0)
-      (effects (font (size 4 4) bold) (justify left bottom))
-    )
-    (property "Sheetfile" "Peripherals.kicad_sch" (at 63.5 69.215 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Flipper_Zero_DIY"
-        (path "/6fd3b1c7-f4ee-4f40-ae71-a0439f037db8" (page "4"))
-      )
-    )
-  )
-
-  (sheet (at 113.03 78.105) (size 42.545 23.495)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 132 0 0.4588))
-    (uuid f971560e-1eca-4abf-9deb-40112c85a0f3)
-    (property "Sheetname" "Power_and_Vibro" (at 114.935 91.44 0)
-      (effects (font (size 3 3) bold) (justify left bottom))
-    )
-    (property "Sheetfile" "Power_and_Vibro.kicad_sch" (at 113.03 102.1846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Flipper_Zero_DIY"
-        (path "/6fd3b1c7-f4ee-4f40-ae71-a0439f037db8" (page "12"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "6fd3b1c7-f4ee-4f40-ae71-a0439f037db8")
+	(paper "A5")
+	(title_block
+		(title "Flipper Device DIY")
+		(rev "13.F7B9C6")
+		(company "Originally from : Flipper Devices Inc.")
+		(comment 1 "DIY Version 1.0")
+	)
+	(lib_symbols)
+	(rectangle
+		(start 12.065 12.065)
+		(end 113.03 104.14)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 243 84 0.46)
+		)
+		(uuid 85f9973f-125f-4d72-93cc-64c175cf47dd)
+	)
+	(rectangle
+		(start 113.03 38.1)
+		(end 198.0265 119.0065)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 138 148 255 0.41)
+		)
+		(uuid af4cfebb-8580-4c77-967a-e3a1439aa57d)
+	)
+	(rectangle
+		(start 113.03 12.065)
+		(end 198.12 38.1)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 96 96 0.49)
+		)
+		(uuid b5c518f2-81a5-41c5-a4dc-fed880b5096d)
+	)
+	(rectangle
+		(start 113.0487 119.0045)
+		(end 128.903 135.89)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 83 46 0.44)
+		)
+		(uuid c1226049-1cf6-458e-ac06-dc9bdbb4ff47)
+	)
+	(rectangle
+		(start 33.02 31.115)
+		(end 33.02 31.115)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid da2b6d3d-d35c-48da-930b-a80a2e4cc4d0)
+	)
+	(rectangle
+		(start 12.065 104.14)
+		(end 62.865 135.89)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 243 84 0.46)
+		)
+		(uuid eaf21491-087d-4cee-9b54-603c81253131)
+	)
+	(rectangle
+		(start 62.865 104.14)
+		(end 113.03 135.89)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 110 255 142 0.46)
+		)
+		(uuid ecad0a80-809a-4c94-8dc2-038c2dc5dcee)
+	)
+	(text "TODO"
+		(exclude_from_sim no)
+		(at 129.54 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "332cb0e7-805c-4fe0-9837-fb20a342ebe8")
+	)
+	(text "IButton \n PCB"
+		(exclude_from_sim no)
+		(at 168.91 29.845 0)
+		(effects
+			(font
+				(size 4 4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "958fe7fa-2293-4d2b-b516-20a99e298bcb")
+	)
+	(text "Main PCB"
+		(exclude_from_sim no)
+		(at 47.625 43.815 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "c02b68d3-eb37-4175-ba7e-c6a87234ea17")
+	)
+	(text "NFC RFID PCB"
+		(exclude_from_sim no)
+		(at 133.985 44.45 0)
+		(effects
+			(font
+				(size 4 4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "c7ed30f6-f89a-4426-9081-31c75b971d14")
+	)
+	(text "TODO"
+		(exclude_from_sim no)
+		(at 172.72 97.155 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f57b5807-3009-46fb-a3f3-cc89f9be05c0")
+	)
+	(sheet
+		(at 156.21 78.105)
+		(size 41.91 23.495)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 132 0 0.4588)
+		)
+		(uuid "02c2e9ea-170f-4763-bb5e-4dbd82101adc")
+		(property "Sheetname" "RFID"
+			(at 168.275 91.44 0)
+			(effects
+				(font
+					(size 4 4)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RFID.kicad_sch"
+			(at 156.21 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Flipper_Zero_DIY"
+				(path "/6fd3b1c7-f4ee-4f40-ae71-a0439f037db8"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 156.21 45.085)
+		(size 41.91 23.495)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 132 0 0.4588)
+		)
+		(uuid "3150230f-fc42-4f51-b6aa-576c3f46b615")
+		(property "Sheetname" "NFC"
+			(at 169.545 59.69 0)
+			(effects
+				(font
+					(size 4 4)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "NFC.kicad_sch"
+			(at 156.21 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Flipper_Zero_DIY"
+				(path "/6fd3b1c7-f4ee-4f40-ae71-a0439f037db8"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 12.065 45.72)
+		(size 49.53 23.495)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 132 0 0.4588)
+		)
+		(uuid "341fdb60-c0a6-4542-a819-91b4604ca30b")
+		(property "Sheetname" "LCD-display"
+			(at 17.145 59.69 0)
+			(effects
+				(font
+					(size 4 4)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LCD-display.kicad_sch"
+			(at 12.065 69.7996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Flipper_Zero_DIY"
+				(path "/6fd3b1c7-f4ee-4f40-ae71-a0439f037db8"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 78.105)
+		(size 49.53 23.495)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 132 0 0.4588)
+		)
+		(uuid "3c4a817d-5c25-43ae-9205-7ae290fb93d7")
+		(property "Sheetname" "MCU-STM32WB55"
+			(at 64.135 92.075 0)
+			(effects
+				(font
+					(size 3.5 3.5)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU-STM32WB55.kicad_sch"
+			(at 63.5 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Flipper_Zero_DIY"
+				(path "/6fd3b1c7-f4ee-4f40-ae71-a0439f037db8"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 113.03 12.065)
+		(size 49.53 23.495)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 132 0 0.4588)
+		)
+		(uuid "4001b5ba-de94-4931-8d86-73d20ca7a680")
+		(property "Sheetname" "iButton"
+			(at 125.73 26.035 0)
+			(effects
+				(font
+					(size 4 4)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "iButton_sch.kicad_sch"
+			(at 113.03 36.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Flipper_Zero_DIY"
+				(path "/6fd3b1c7-f4ee-4f40-ae71-a0439f037db8"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 12.065)
+		(size 49.53 23.495)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 132 0 0.4588)
+		)
+		(uuid "574ce9ea-c3fa-46b8-8d0b-f8692bcd0c57")
+		(property "Sheetname" "Power"
+			(at 78.105 26.035 0)
+			(effects
+				(font
+					(size 4 4)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 63.5 36.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Flipper_Zero_DIY"
+				(path "/6fd3b1c7-f4ee-4f40-ae71-a0439f037db8"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 12.065 109.855)
+		(size 49.53 23.495)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 132 0 0.4588)
+		)
+		(uuid "64c69069-35fd-4bf7-9928-a7349a5a8e14")
+		(property "Sheetname" "Buttons"
+			(at 24.765 123.825 0)
+			(effects
+				(font
+					(size 4 4)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Buttons.kicad_sch"
+			(at 12.065 133.9346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Flipper_Zero_DIY"
+				(path "/6fd3b1c7-f4ee-4f40-ae71-a0439f037db8"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 113.03 45.085)
+		(size 42.545 23.495)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 132 0 0.4588)
+		)
+		(uuid "6eb83f5a-7b16-426a-9130-a087b28e79cc")
+		(property "Sheetname" "NFC_Block_Diagram"
+			(at 113.03 59.055 0)
+			(effects
+				(font
+					(size 2.8 2.8)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "NFC_Block_Diagram.kicad_sch"
+			(at 113.03 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Flipper_Zero_DIY"
+				(path "/6fd3b1c7-f4ee-4f40-ae71-a0439f037db8"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 12.065 12.065)
+		(size 49.53 23.495)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 132 0 0.4600)
+		)
+		(uuid "8de03230-0fbb-4dc8-83dd-160a4cc10118")
+		(property "Sheetname" "Main_Block_Diagram"
+			(at 12.7 25.4 0)
+			(effects
+				(font
+					(size 3 3)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Main_Block_Diagram.kicad_sch"
+			(at 12.065 36.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Flipper_Zero_DIY"
+				(path "/6fd3b1c7-f4ee-4f40-ae71-a0439f037db8"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 12.065 78.105)
+		(size 49.53 23.495)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 132 0 0.4588)
+		)
+		(uuid "92a95282-e6d1-4acc-9253-4231b5f831de")
+		(property "Sheetname" "Sub-1-GHz-CC1101"
+			(at 12.065 91.44 0)
+			(effects
+				(font
+					(size 3 3)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sub-1-GHz-CC1101.kicad_sch"
+			(at 12.065 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Flipper_Zero_DIY"
+				(path "/6fd3b1c7-f4ee-4f40-ae71-a0439f037db8"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 109.855)
+		(size 49.53 23.495)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 132 0 0.4588)
+		)
+		(uuid "9fe18208-ca74-497d-87ec-8e97e80c6459")
+		(property "Sheetname" "change_log"
+			(at 72.39 123.825 0)
+			(effects
+				(font
+					(size 3.5 3.5)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "change_log.kicad_sch"
+			(at 63.5 133.9346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Flipper_Zero_DIY"
+				(path "/6fd3b1c7-f4ee-4f40-ae71-a0439f037db8"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 45.085)
+		(size 49.53 23.495)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 132 0 0.4588)
+		)
+		(uuid "df3e630c-89cc-4e6d-867b-b681a42511f6")
+		(property "Sheetname" "Peripherals"
+			(at 69.85 59.055 0)
+			(effects
+				(font
+					(size 4 4)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Peripherals.kicad_sch"
+			(at 63.5 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Flipper_Zero_DIY"
+				(path "/6fd3b1c7-f4ee-4f40-ae71-a0439f037db8"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 113.03 78.105)
+		(size 42.545 23.495)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 132 0 0.4588)
+		)
+		(uuid "f971560e-1eca-4abf-9deb-40112c85a0f3")
+		(property "Sheetname" "Power_and_Vibro"
+			(at 114.935 91.44 0)
+			(effects
+				(font
+					(size 3 3)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_and_Vibro.kicad_sch"
+			(at 113.03 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Flipper_Zero_DIY"
+				(path "/6fd3b1c7-f4ee-4f40-ae71-a0439f037db8"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )

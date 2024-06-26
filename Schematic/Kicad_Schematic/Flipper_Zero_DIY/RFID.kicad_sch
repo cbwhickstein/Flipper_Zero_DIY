@@ -1,17 +1,14 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 7b3ecf3f-7b51-4c65-8bd2-bf00da371295)
-
-  (paper "A4")
-
-  (title_block
-    (title "Flipper Device DIY")
-    (rev "13.F7B9C6")
-    (company "Originally from : Flipper Devices Inc.")
-    (comment 1 "DIY Version 1.0")
-  )
-
-  (lib_symbols
-  )
-
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "7b3ecf3f-7b51-4c65-8bd2-bf00da371295")
+	(paper "A4")
+	(title_block
+		(title "Flipper Device DIY")
+		(rev "13.F7B9C6")
+		(company "Originally from : Flipper Devices Inc.")
+		(comment 1 "DIY Version 1.0")
+	)
+	(lib_symbols)
 )
